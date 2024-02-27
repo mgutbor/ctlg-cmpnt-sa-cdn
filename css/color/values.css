@@ -1,0 +1,82 @@
+:root {
+  /* Greenery */
+  --color-greenery-dark: #003315;
+  --color-greenery-500: #007a33;
+  --color-greenery-400: #cde5d7;
+  --color-greenery-300: #e1efe7;
+  --color-greenery-200: #ebf4ef;
+  --color-greenery-100: #f5faf7;
+
+  /* Teal */
+  --color-teal-dark: #00444d;
+  --color-teal-500: #00a2b8;
+  --color-teal-400: #cbecf1;
+  --color-teal-300: #dff4f6;
+  --color-teal-200: #ebf8f9;
+  --color-teal-100: #f3fafb;
+
+  /* Mint */
+  --color-mint-dark: #01372a;
+  --color-mint-500: #028365;
+  --color-mint-400: #cce6e0;
+  --color-mint-300: #e0f0ed;
+  --color-mint-200: #ebf5f3;
+  --color-mint-100: #f5faf9;
+
+  /* Sunset */
+  --color-sunset-dark: #522700;
+  --color-sunset-500: #d16500;
+  --color-sunset-400: #f6e0cb;
+  --color-sunset-300: #f9ede1;
+  --color-sunset-200: #fbf2ea;
+  --color-sunset-100: #fdfaf6;
+
+  /* Mulberry */
+  --color-mulberry-dark: #470a0e;
+  --color-mulberry-500: #ad1a21;
+  --color-mulberry-400: #efd2d4;
+  --color-mulberry-300: #f5e5e5;
+  --color-mulberry-200: #f9ecec;
+  --color-mulberry-100: #fcf7f7;
+
+  /* Violet */
+  --color-violet-dark: #2a0962;
+  --color-violet-500: #6714f5;
+  --color-violet-400: #decefd;
+  --color-violet-300: #ece1fe;
+  --color-violet-200: #f3ecfe;
+  --color-violet-100: #f8f5ff;
+
+  /* Ocean */
+  --color-ocean-dark: #0a2e52;
+  --color-ocean-500: #1975d2;
+  --color-ocean-400: #d0e4f6;
+  --color-ocean-300: #e5f0fa;
+  --color-ocean-200: #eef5fb;
+  --color-ocean-100: #f7fafd;
+
+  /* Carbon */
+  --color-basic-white: #ffffff;
+  --color-carbon-20: #fafafa;
+  --color-carbon-40: #f5f5f5;
+  --color-carbon-60: #f0f0f0;
+  --color-carbon-80: #ebebeb;
+  --color-carbon-100: #e6e6e6;
+  --color-carbon-120: #e0e0e0;
+  --color-carbon-140: #dbdbdb;
+  --color-carbon-160: #d6d6d6;
+  --color-carbon-180: #d1d1d1;
+  --color-carbon-200: #cccccc;
+  --color-carbon-300: #b3b3b3;
+  --color-carbon-500: #808080;
+  --color-carbon-560: #757575;
+  --color-carbon-600: #666666;
+  --color-carbon-660: #5c5c5c;
+  --color-carbon-700: #4d4d4d;
+  --color-carbon-760: #424242;
+  --color-carbon-800: #333333;
+  --color-carbon-860: #292929;
+  --color-carbon-900: #1a1a1a;
+  --color-carbon-960: #0f0f0f;
+  --color-basic-black: #000000;
+}

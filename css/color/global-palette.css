@@ -1,0 +1,82 @@
+:root {
+  /* Primary */
+  --color-primary-dark: var(--color-greenery-dark);
+  --color-primary-500: var(--color-greenery-500);
+  --color-primary-400: var(--color-greenery-400);
+  --color-primary-300: var(--color-greenery-300);
+  --color-primary-200: var(--color-greenery-200);
+  --color-primary-100: var(--color-greenery-100);
+
+  /* Info */
+  --color-info-dark: var(--color-teal-dark);
+  --color-info-500: var(--color-teal-500);
+  --color-info-400: var(--color-teal-400);
+  --color-info-300: var(--color-teal-300);
+  --color-info-200: var(--color-teal-200);
+  --color-info-100: var(--color-teal-100);
+
+  /* Success */
+  --color-success-dark: var(--color-mint-dark);
+  --color-success-500: var(--color-mint-500);
+  --color-success-400: var(--color-mint-400);
+  --color-success-300: var(--color-mint-300);
+  --color-success-200: var(--color-mint-200);
+  --color-success-100: var(--color-mint-100);
+
+  /* Warning */
+  --color-warning-dark: var(--color-sunset-dark);
+  --color-warning-500: var(--color-sunset-500);
+  --color-warning-400: var(--color-sunset-400);
+  --color-warning-300: var(--color-sunset-300);
+  --color-warning-200: var(--color-sunset-200);
+  --color-warning-100: var(--color-sunset-100);
+
+  /* Error */
+  --color-error-dark: var(--color-mulberry-dark);
+  --color-error-500: var(--color-mulberry-500);
+  --color-error-400: var(--color-mulberry-400);
+  --color-error-300: var(--color-mulberry-300);
+  --color-error-200: var(--color-mulberry-200);
+  --color-error-100: var(--color-mulberry-100);
+
+  /* Spotlight */
+  --color-spotlight-dark: var(--color-violet-dark);
+  --color-spotlight-500: var(--color-violet-500);
+  --color-spotlight-400: var(--color-violet-400);
+  --color-spotlight-300: var(--color-violet-300);
+  --color-spotlight-200: var(--color-violet-200);
+  --color-spotlight-100: var(--color-violet-100);
+
+  /* Interaction */
+  --color-interaction-dark: var(--color-ocean-dark);
+  --color-interaction-500: var(--color-ocean-500);
+  --color-interaction-400: var(--color-ocean-400);
+  --color-interaction-300: var(--color-ocean-300);
+  --color-interaction-200: var(--color-ocean-200);
+  --color-interaction-100: var(--color-ocean-100);
+
+  /* Neutral */
+  --color-neutral-00: var(--color-basic-white);
+  --color-neutral-20: var(--color-carbon-20);
+  --color-neutral-40: var(--color-carbon-40);
+  --color-neutral-60: var(--color-carbon-60);
+  --color-neutral-80: var(--color-carbon-80);
+  --color-neutral-100: var(--color-carbon-100);
+  --color-neutral-120: var(--color-carbon-120);
+  --color-neutral-140: var(--color-carbon-140);
+  --color-neutral-160: var(--color-carbon-160);
+  --color-neutral-180: var(--color-carbon-180);
+  --color-neutral-200: var(--color-carbon-200);
+  --color-neutral-300: var(--color-carbon-300);
+  --color-neutral-500: var(--color-carbon-500);
+  --color-neutral-560: var(--color-carbon-560);
+  --color-neutral-600: var(--color-carbon-600);
+  --color-neutral-660: var(--color-carbon-660);
+  --color-neutral-700: var(--color-carbon-700);
+  --color-neutral-760: var(--color-carbon-760);
+  --color-neutral-800: var(--color-carbon-800);
+  --color-neutral-860: var(--color-carbon-860);
+  --color-neutral-900: var(--color-carbon-900);
+  --color-neutral-960: var(--color-carbon-960);
+  --color-neutral-1000: var(--color-basic-black);
+}
