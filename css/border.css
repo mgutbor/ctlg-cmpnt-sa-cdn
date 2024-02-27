@@ -1,0 +1,19 @@
+:root {
+  /* Estilo */
+  --border-style-solid: solid;
+  --border-style-dotted:dotted;
+
+  /* Grosor */
+  --border-width-none: 0;
+  --border-width-xs: .0625rem;
+  --border-width-sm: .125rem;
+  --border-width-md: .25rem;
+  --border-width-lg: .5rem;
+
+  /* Posición */
+  --border-position-all: ;
+  --border-position-top: ;
+  --border-position-right: ;
+  --border-position-bottom: ;
+  --border-position-left: ;
+}
