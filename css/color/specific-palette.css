@@ -1,0 +1,124 @@
+:root {
+  /* == Background == */
+  
+  /* Neutrals*/
+  --color-background-1: var(--color-neutral-00);
+  --color-background-2: var(--color-neutral-20);
+  --color-background-3: var(--color-neutral-40);
+  --color-background-4: var(--color-neutral-60);
+  --color-background-5: var(--color-neutral-80);
+  --color-background-6: var(--color-neutral-100);
+  --color-background-7: var(--color-neutral-120);
+  --color-background-8: var(--color-neutral-140);
+  --color-background-9: var(--color-neutral-160);
+  --color-background-10: var(--color-neutral-180);
+  --color-background-11: var(--color-neutral-800);
+  --color-background-disabled: var(--color-neutral-80);
+  
+  /* Primary */
+  --color-background-primary-default: var(--color-primary-500);
+  --color-background-primary-subtle: var(--color-primary-300);
+  --color-background-primary-active: var(--color-primary-200);
+  --color-background-primary-selected: var(--color-primary-100);
+  
+  /*Status */
+  --color-background-status-info-subtle: var(--color-info-300);
+  --color-background-status-info-accent: var(--color-info-500);
+  --color-background-status-success-subtle: var(--color-success-300);
+  --color-background-status-success-accent: var(--color-success-500);
+  --color-background-status-warning-subtle: var(--color-warning-300);
+  --color-background-status-warning-accent: var(--color-warning-500);
+  --color-background-status-error-subtle: var(--color-mulberry-300);
+  --color-background-status-error-accent: var(--color-error-500);
+  --color-background-status-spotlight-subtle: var(--color-spotlight-300);
+  --color-background-status-spotlight-accent: var(--color-spotlight-500);
+  --color-background-status-interaction-subtle: var(--color-interaction-300);
+  --color-background-status-interaction-accent: var(--color-interaction-500);
+  
+  /* == Text == */
+  
+  /* Neutrals*/
+  --color-text-1: var(--color-neutral-800);
+  --color-text-2: var(--color-neutral-700);
+  --color-text-3: var(--color-neutral-500);
+  --color-text-on-dark: var(--color-neutral-00);
+  --color-text-disabled: var(--color-neutral-500);
+  
+  /* Primary */
+  --color-text-primary-default: var(--color-primary-500);
+  --color-text-primary-on-dark: var(--color-neutral-00);
+  
+  /* Secondary */
+  --color-text-secondary-default: var(--color-neutral-800);
+  --color-text-secondary-on-dark: var(--color-neutral-00);
+  
+  /* Status */
+  --color-text-status-info: var(--color-info-dark);
+  --color-text-status-info-accent: var(--color-info-500);
+  --color-text-status-success: var(--color-success-dark);
+  --color-text-status-success-accent: var(--color-success-500);
+  --color-text-status-warning: var(--color-warning-dark);
+  --color-text-status-warning-accent: var(--color-warning-500);
+  --color-text-status-error: var(--color-error-dark);
+  --color-text-status-error-accent: var(--color-error-500);
+  --color-text-status-spotlight: var(--color-spotlight-dark);
+  --color-text-status-spotlight-accent: var(--color-spotlight-500);
+  --color-text-status-interaction: var(--color-interaction-dark);
+  --color-text-status-interaction-accent: var(--color-interaction-500);
+  
+  /* == Border ==*/ 
+  
+  /* Neutrals */
+  --color-border-1: var(--color-neutral-200);
+  --color-border-2: var(--color-neutral-500);
+  --color-border-3: var(--color-neutral-800);
+  --color-border-on-dark: var(--color-neutral-00);
+  --color-border-disabled: var(--color-neutral-200);
+  
+  /* Primary */
+  --color-border-primary-default: var(--color-primary-500);
+  --color-border-primary-focused: var(--color-primary-500);
+  
+  /* Secondary */
+  --color-border-secondary-default: var(--color-neutral-800);
+  --color-border-secondary-focused: var(--color-neutral-800);
+  
+  /* Status */
+  --color-border-status-info: var(--color-info-500);
+  --color-border-status-success: var(--color-success-500);
+  --color-border-status-warning: var(--color-warning-500);
+  --color-border-status-error: var(--color-error-500);
+  --color-border-status-spotlight: var(--color-spotlight-500);
+  --color-border-status-interaction: var(--color-interaction-500);
+  
+  /* == Fill == */
+
+  /* Neutrals icon */
+  --color-fill-1: var(--color-neutral-800);
+  --color-fill-2: var(--color-neutral-700);
+  --color-fill-3: var(--color-neutral-500);
+  --color-fill-on-dark: var(--color-neutral-00);
+  --color-fill-disabled: var(--color-neutral-500);
+  
+  /* Primary icon */
+  --color-fill-primary-default: var(--color-primary-500);
+  --color-fill-primary-on-dark: var(--color-neutral-00);
+  
+  /* Secondary icon */
+  --color-fill-secondary-default: var(--color-neutral-800);
+  --color-fill-secondary-on-dark: var(--color-neutral-00);
+  
+  /* Status icon */
+  --color-fill-status-info: var(--color-info-dark);
+  --color-fill-status-info-accent: var(--color-info-500);
+  --color-fill-status-success: var(--color-success-dark);
+  --color-fill-status-success-accent: var(--color-success-500);
+  --color-fill-status-warning: var(--color-warning-dark);
+  --color-fill-status-warning-accent: var(--color-warning-500);
+  --color-fill-status-error: var(--color-error-dark);
+  --color-fill-status-error-accent: var(--color-error-500);
+  --color-fill-status-spotlight: var(--color-spotlight-dark);
+  --color-fill-status-spotlight-accent: var(--color-spotlight-500);
+  --color-fill-status-interaction: var(--color-interaction-dark);
+  --color-fill-status-interaction-accent: var(--color-interaction-500);
+}
