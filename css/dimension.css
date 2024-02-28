@@ -1,0 +1,200 @@
+:root {
+  /* Globals */
+  --dimension-none: 0rem;
+  --dimension-2xs: 0.125rem;
+  --dimension-xs: 0.25rem;
+  --dimension-sm: 0.5rem;
+  --dimension-md: 0.75rem;
+  --dimension-xl: 1.25rem;
+  --dimension-2xl: 1.5rem;
+  --dimension-3xl: 1.75rem;
+  --dimension-4xl: 2rem;
+  --dimension-5xl: 2.25rem;
+  --dimension-6xl: 2.5rem;
+  --dimension-7xl: 2.75rem;
+  --dimension-8xl: 3rem;
+  --dimension-9xl: 3.25rem;
+  --dimension-10xl: 3.5rem;
+  --dimension-11xl: 3.75rem;
+  --dimension-12xl: 4rem;
+  --dimension-13xl: 4.25rem;
+  --dimension-14xl: 4.5rem;
+  --dimension-15xl: 4.75rem;
+  --dimension-16xl: 5rem;
+  --dimension-17xl: 5.25rem;
+  --dimension-18xl: 5.5rem;
+
+  /* == Específicos == */
+
+  /* Sizing */
+  /* Width */
+  --sizing-width-2xs: var(--dimension-2xs);
+  --sizing-width-xs: var(--dimension-xs);
+  --sizing-width-sm: var(--dimension-sm);
+  --sizing-width-md: var(--dimension-md);
+  --sizing-width-lg: var(--dimension-lg);
+  --sizing-width-xl: var(--dimension-xl);
+  --sizing-width-2xl: var(--dimension-2xl);
+  --sizing-width-3xl: var(--dimension-3xl);
+  --sizing-width-4xl: var(--dimension-4xl);
+  --sizing-width-5xl: var(--dimension-5xl);
+  --sizing-width-6xl: var(--dimension-6xl);
+  --sizing-width-7xl: var(--dimension-7xl);
+  --sizing-width-8xl: var(--dimension-8xl);
+  --sizing-width-9xl: var(--dimension-9xl);
+  --sizing-width-10xl: var(--dimension-10xl);
+  --sizing-width-11xl: var(--dimension-11xl);
+  --sizing-width-12xl: var(--dimension-12xl);
+  --sizing-width-13xl: var(--dimension-13xl);
+  --sizing-width-14xl: var(--dimension-14xl);
+  --sizing-width-15xl: var(--dimension-15xl);
+  --sizing-width-16xl: var(--dimension-16xl);
+  --sizing-width-17xl: var(--dimension-17xl);
+  --sizing-width-18xl: var(--dimension-18xl);
+
+  /* Height */
+  --sizing-height-2xs: var(--dimension-2xs);
+  --sizing-height-xs: var(--dimension-xs);
+  --sizing-height-sm: var(--dimension-sm);
+  --sizing-height-md: var(--dimension-md);
+  --sizing-height-lg: var(--dimension-lg);
+  --sizing-height-xl: var(--dimension-xl);
+  --sizing-height-2xl: var(--dimension-2xl);
+  --sizing-height-3xl: var(--dimension-3xl);
+  --sizing-height-4xl: var(--dimension-4xl);
+  --sizing-height-5xl: var(--dimension-5xl);
+  --sizing-height-6xl: var(--dimension-6xl);
+  --sizing-height-7xl: var(--dimension-7xl);
+  --sizing-height-8xl: var(--dimension-8xl);
+  --sizing-height-9xl: var(--dimension-9xl);
+  --sizing-height-10xl: var(--dimension-10xl);
+  --sizing-height-11xl: var(--dimension-11xl);
+  --sizing-height-12xl: var(--dimension-12xl);
+  --sizing-height-13xl: var(--dimension-13xl);
+  --sizing-height-14xl: var(--dimension-14xl);
+  --sizing-height-15xl: var(--dimension-15xl);
+  --sizing-height-16xl: var(--dimension-16xl);
+  --sizing-height-17xl: var(--dimension-17xl);
+  --sizing-height-18xl: var(--dimension-18xl);
+
+  /* Spacing */
+
+  /* Inline */
+  --spacing-inline-2xs: var(--dimension-2xs);
+  --spacing-inline-xs: var(--dimension-xs);
+  --spacing-inline-sm: var(--dimension-sm);
+  --spacing-inline-xl: var(--dimension-xl);
+  --spacing-inline-md: var(--dimension-md);
+  --spacing-inline-2xl: var(--dimension-2xl);
+  --spacing-inline-3xl: var(--dimension-3xl);
+  --spacing-inline-4xl: var(--dimension-4xl);
+  --spacing-inline-5xl: var(--dimension-5xl);
+  --spacing-inline-6xl: var(--dimension-6xl);
+  --spacing-inline-7xl: var(--dimension-7xl);
+  --spacing-inline-8xl: var(--dimension-8xl);
+  --spacing-inline-9xl: var(--dimension-9xl);
+  --spacing-inline-10xl: var(--dimension-10xl);
+  --spacing-inline-11xl: var(--dimension-11xl);
+  --spacing-inline-12xl: var(--dimension-12xl);
+  --spacing-inline-13xl: var(--dimension-13xl);
+  --spacing-inline-14xl: var(--dimension-14xl);
+  --spacing-inline-15xl: var(--dimension-15xl);
+  --spacing-inline-16xl: var(--dimension-16xl);
+  --spacing-inline-17xl: var(--dimension-17xl);
+  --spacing-inline-18xl: var(--dimension-18xl);
+
+  /* Inset */
+  --spacing-inset-2xs: var(--dimension-2xs);
+  --spacing-inset-xs: var(--dimension-xs);
+  --spacing-inset-sm: var(--dimension-sm);
+  --spacing-inset-md: var(--dimension-md);
+  --spacing-inset-lg: var(--dimension-lg);
+  --spacing-inset-xl: var(--dimension-xl);
+  --spacing-inset-2xl: var(--dimension-2xl);
+  --spacing-inset-3xl: var(--dimension-3xl);
+  --spacing-inset-4xl: var(--dimension-4xl);
+  --spacing-inset-5xl: var(--dimension-5xl);
+  --spacing-inset-6xl: var(--dimension-6xl);
+  --spacing-inset-7xl: var(--dimension-7xl);
+  --spacing-inset-8xl: var(--dimension-8xl);
+  --spacing-inset-9xl: var(--dimension-9xl);
+  --spacing-inset-10xl: var(--dimension-10xl);
+  --spacing-inset-11xl: var(--dimension-11xl);
+  --spacing-inset-12xl: var(--dimension-12xl);
+  --spacing-inset-13xl: var(--dimension-13xl);
+  --spacing-inset-14xl: var(--dimension-14xl);
+  --spacing-inset-15xl: var(--dimension-15xl);
+  --spacing-inset-16xl: var(--dimension-16xl);
+  --spacing-inset-17xl: var(--dimension-17xl);
+  --spacing-inset-18xl: var(--dimension-18xl);
+
+  /* Inset-side */
+  --spacing-inset-side-sm: 0px var(--dimension-xs);
+  --spacing-inset-side-md: 0px var(--dimension-sm);
+  --spacing-inset-side-lg: 0px var(--dimension-md);
+  --spacing-inset-side-xl: 0px var(--dimension-lg);
+  --spacing-inset-side-2xl: 0px var(--dimension-2xl);
+  --spacing-inset-side-3xl: 0px var(--dimension-4xl);
+
+  /* Inset-squish */
+  --spacing-inset-squish-sm: var(--dimension-xs) var(--dimension-lg);
+  --spacing-inset-squish-md: var(--dimension-sm) var(--dimension-lg);
+  --spacing-inset-squish-lg: var(--dimension-sm) var(--dimension-4xl);
+  --spacing-inset-squish-xl: var(--dimension-md) var(--dimension-lg);
+  --spacing-inset-squish-2xl: var(--dimension-lg) var(--dimension-2xl);
+  --spacing-inset-squish-3xl: var(--dimension-lg) var(--dimension-4xl);
+  --spacing-inset-squish-4xl: var(--dimension-2xl) var(--dimension-4xl);
+
+  /* Inset-squish-left */
+  --spacing-inset-squish-left-sm: var(--dimension-xs) var(--dimension-lg)
+    var(--dimension-xs) var(--dimension-md);
+  --spacing-inset-squish-left-md: var(--dimension-sm) var(--dimension-lg)
+    var(--dimension-sm) var(--dimension-md);
+  --spacing-inset-squish-left-lg: var(--dimension-md) var(--dimension-lg)
+    var(--dimension-md) var(--dimension-md);
+  --spacing-inset-squish-left-xl: var(--dimension-lg) var(--dimension-lg)
+    var(--dimension-lg) var(--dimension-md);
+  --spacing-inset-squish-left-2xl: var(--dimension-2xl) var(--dimension-lg)
+    var(--dimension-2xl) var(--dimension-md);
+  --spacing-inset-squish-left-3xl: var(--dimension-4xl) var(--dimension-lg)
+    var(--dimension-4xl) var(--dimension-md);
+
+  /* Inset-squish-right */
+  --spacing-inset-squish-right-sm: var(--dimension-xs) var(--dimension-md)
+    var(--dimension-xs) var(--dimension-lg);
+  --spacing-inset-squish-right-md: var(--dimension-sm) var(--dimension-md)
+    var(--dimension-sm) var(--dimension-lg);
+  --spacing-inset-squish-right-lg: var(--dimension-md) var(--dimension-md)
+    var(--dimension-md) var(--dimension-lg);
+  --spacing-inset-squish-right-xl: var(--dimension-lg) var(--dimension-md)
+    var(--dimension-lg) var(--dimension-lg);
+  --spacing-inset-squish-right-2xl: var(--dimension-2xl) var(--dimension-md)
+    var(--dimension-2xl) var(--dimension-lg);
+  --spacing-inset-squish-right-3xl: var(--dimension-4xl) var(--dimension-md)
+    var(--dimension-4xl) var(--dimension-lg);
+
+  /* Stack */
+  --spacing-stack-2xs: var(--dimension-2xs);
+  --spacing-stack-xs: var(--dimension-xs);
+  --spacing-stack-sm: var(--dimension-sm);
+  --spacing-stack-md: var(--dimension-md);
+  --spacing-stack-lg: var(--dimension-lg);
+  --spacing-stack-xl: var(--dimension-xl);
+  --spacing-stack-2xl: var(--dimension-2xl);
+  --spacing-stack-3xl: var(--dimension-3xl);
+  --spacing-stack-4xl: var(--dimension-4xl);
+  --spacing-stack-5xl: var(--dimension-5xl);
+  --spacing-stack-6xl: var(--dimension-6xl);
+  --spacing-stack-7xl: var(--dimension-7xl);
+  --spacing-stack-8xl: var(--dimension-8xl);
+  --spacing-stack-9xl: var(--dimension-9xl);
+  --spacing-stack-10xl: var(--dimension-10xl);
+  --spacing-stack-11xl: var(--dimension-11xl);
+  --spacing-stack-12xl: var(--dimension-12xl);
+  --spacing-stack-13xl: var(--dimension-13xl);
+  --spacing-stack-14xl: var(--dimension-14xl);
+  --spacing-stack-15xl: var(--dimension-15xl);
+  --spacing-stack-16xl: var(--dimension-16xl);
+  --spacing-stack-17xl: var(--dimension-17xl);
+  --spacing-stack-18xl: var(--dimension-18xl);
+}
