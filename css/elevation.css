@@ -1,0 +1,28 @@
+:root {
+  /* Globals */
+  --opacity-none: 0;
+  --opacity-lightest: 0.04;
+  --opacity-verylight: 0.08;
+  --opacity-light: 0.12;
+  --opacity-mediumlight: 0.16;
+  --opacity-mediumdark: 0.2;
+  --opacity-dark: 0.4;
+  --opacity-verydark: 0.6;
+  --opacity-darkest: 0.8;
+
+  /* == Specific == */
+
+  /* Shadow */
+  --shadow-none: 0px 0px 0px 0px rgb(0, 0, 0, 0),
+    0px 0px 0px 0px rgb(0, 0, 0, 0);
+  --shadow-xs: 0px 1px 3px 1px rgb(0, 0, 0, 0.1),
+    0px 1px 2px 2px rgb(0, 0, 0, 0.1);
+  --shadow-s: 0px 2px 6px 2px rgb(0, 0, 0, 0.1),
+    0px 1px 2px 2px rgb(0, 0, 0, 0.1);
+  --shadow-m: 0px 4px 8px 3px rgb(0, 0, 0, 0.1),
+    0px 1px 3px 3px rgb(0, 0, 0, 0.1);
+  --shadow-l: 0px 6px 10px 4px rgb(0, 0, 0, 0.15),
+    0px 3px 3px 3px rgb(0, 0, 0, 0.3);
+  --shadow-xl: 0px 8px 12px 4px rgb(0, 0, 0, 0.15),
+    0px 4px 4px 4px rgb(0, 0, 0, 0.3);
+}
