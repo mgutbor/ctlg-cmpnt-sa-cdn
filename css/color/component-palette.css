@@ -1,0 +1,87 @@
+:root {
+  /* == Action == */
+
+  /* Background */
+  --color-background-action-primary-default: var(
+    --color-background-primary-default
+  );
+  --color-background-action-primary-active: var(
+    --color-background-primary-active
+  );
+  --color-background-action-primary-selected: var(
+    --color-background-primary-selected
+  );
+  --color-background-action-disabled: var(--color-background-disabled);
+
+  /* Text */
+  --color-text-action-primary-default: var(--color-text-primary-default);
+  --color-text-action-primary-on-dark: var(--color-text-primary-on-dark);
+  --color-text-action-secondary-default: var(--color-text-secondary-default);
+  --color-text-action-secondary-on-dark: var(--color-text-secondary-on-dark);
+  --color-text-action-disabled: var(--color-text-disabled);
+
+  /* Border */
+  --color-border-action-primary-default: var(--color-border-primary-default);
+  --color-border-action-primary-focused: var(--color-border-primary-focused);
+  --color-border-action-secondary-default: var(
+    --color-border-secondary-default
+  );
+  --color-border-action-secondary-focused: var(
+    --color-border-secondary-focused
+  );
+  --color-border-action-disabled: var(--color-border-disabled);
+
+  /* == Input == */
+
+  /* Background */
+  --color-background-input-default: var(--color-background-3);
+  --color-background-input-disabled: var(--color-background-disabled);
+
+  /* Text */
+
+  --color-text-input-active: var(--color-text-1);
+  --color-text-input-default: var(--color-text-2);
+  --color-text-input-disabled: var(--color-text-disabled);
+  --color-text-input-placeholder-active-active: var(--color-text-3);
+
+  /* Border */
+  --color-border-input-default: var(--color-border-2);
+  --color-border-input-hovered: var(--color-border-3);
+  --color-border-input-active: var(--color-border-3);
+  --color-border-input-focused: var(--color-border-status-interaction);
+  --color-border-input-disabled: var(--color-border-disabled);
+
+  /* == Label == */
+
+  /* Text */
+  --color-text-label-default: var(--color-text-2);
+  --color-text-label-on-dark: var(--color-text-on-dark);
+  --color-text-label-disabled: var(--color-text-disabled);
+
+  /* == Menu == */
+
+  /* Text */
+  --color-text-menu-default: var(--color-text-1);
+  --color-text-menu-active: var(--color-text-primary-default);
+  --color-text-menu-disabled: var(--color-text-disabled);
+
+  /* == Link == */
+
+  /* Text */
+  --color-text-link-default: var(--color-text-status-interaction-accent);
+  --color-text-link-hovered: var(--color-text-status-interaction);
+  --color-text-link-visited: var(--color-text-status-interaction);
+  --color-text-link-disabled: var(--color-text-disabled);
+
+  /* Fill */
+  --color-fill-link-default: var(--color-fill-status-interaction-accent);
+  --color-fill-link-hovered: var(--color-fill-status-interaction);
+  --color-fill-link-visited: var(--color-fill-status-interaction);
+  --color-fill-link-disabled: var(--color-fill-disabled);
+
+  /* == Elevation == */
+
+  /* Fill */
+  --color-fill-shadow: var(--color-fill-3);
+  --color-fill-overlay: var(--color-fill-1);
+}
